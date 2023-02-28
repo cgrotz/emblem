@@ -15,7 +15,7 @@
 
 set -eu
 
-export REGION=${REGION:=us-central1}
+export REGION=${REGION:=europe-west1}
 
 # Check env variables are not empty strings
 if [[ -z "${PROD_PROJECT}" ]]; then

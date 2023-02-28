@@ -21,7 +21,7 @@ cd $(dirname "$0") # Make future relative paths consistent
 set -e
 
 SUFFIX=$(openssl rand -hex 8)
-REGION="us-central"
+REGION="europe-west"
 
 # Check env variables
 if [[ -z "${EMBLEM_ORGANIZATION}" ]]; then

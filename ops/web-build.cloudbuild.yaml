@@ -26,9 +26,9 @@ steps:
         ${_REGION}-docker.pkg.dev/${PROJECT_ID}/website/website:${_IMAGE_TAG} \
         website/. 
 
-# Default to us-central1 
+# Default to europe-west1 
 substitutions:
-  _REGION: us-central1
+  _REGION: europe-west1
   _IMAGE_TAG: $SHORT_SHA
 
 # Store in Artifact Registry

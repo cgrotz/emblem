@@ -56,6 +56,6 @@ steps:
 # Specify a default value for optional variables
 substitutions:
   _EMBLEM_SESSION_BUCKET: nonexistent-bucket
-  _REGION: us-central1
+  _REGION: europe-west1
   _E2E_RUNNER_SHA: latest
   _FLASK_PORT: "8080"

@@ -28,7 +28,7 @@ elif [[ -z "${OPS_PROJECT}" ]]; then
     exit 1
 fi
 
-export REGION=${REGION:=us-central1}
+export REGION=${REGION:=europe-west1}
 
 # Declare variables (calculated from env-var inputs)
 STAGE_AUTH_API_URL=$(gcloud run services describe lit-auth-api --project "${STAGE_PROJECT}" --region "${REGION}" --format "value(status.address.url)")

@@ -21,7 +21,7 @@ export TF_VAR_setup_cd_system=true
 
 2. Set required variables:
 ```
-# Common regions include `us-central1`, `europe-west6` and `asia-east1`.
+# Common regions include `europe-west1`, `europe-west6` and `asia-east1`.
 # See the page below for a full list:
 #   https://cloud.google.com/about/locations
 export REGION=<YOUR GCP REGION>

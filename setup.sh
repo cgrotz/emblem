@@ -32,7 +32,7 @@ trap '_error_report $LINENO' ERR
 #   SKIP_DEPLOY             If set, do not deploy services
 #   SKIP_SEEDING            If set, do not seed the database
 #   USE_DEFAULT_ACCOUNT     If set, do not prompt for a GCP Account Name during database seeding
-#   REGION                  Default region to deploy resources to. Defaults to 'us-central1'
+#   REGION                  Default region to deploy resources to. Defaults to 'europe-west1'
 
 # Default to empty or default values, avoiding unbound variable errors.
 SKIP_TRIGGERS=${SKIP_TRIGGERS:-}
@@ -41,7 +41,7 @@ SKIP_BUILD=${SKIP_BUILD:-}
 SKIP_DEPLOY=${SKIP_DEPLOY:-}
 SKIP_SEEDING=${SKIP_SEEDING:-}
 USE_DEFAULT_ACCOUNT=${USE_DEFAULT_ACCOUNT:-}
-export REGION=${REGION:=us-central1}
+export REGION=${REGION:=europe-west1}
 
 # Check env variables are not empty strings
 if [[ -z "${PROD_PROJECT}" ]]; then

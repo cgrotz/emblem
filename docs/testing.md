@@ -64,7 +64,7 @@ Triggering a Content API deployment:
 
 ```sh
 cd content-api
-REGION=us-central1
+REGION=europe-west1
 PROJECT_ID=example-emblem-ops
 gcloud builds submit --tag \
   ${_REGION}-docker.pkg.dev/${PROJECT_ID}/content-api/content-api:manual
@@ -74,7 +74,7 @@ Triggering a Web deployment:
 
 ```sh
 cd website
-REGION=us-central1
+REGION=europe-west1
 PROJECT_ID=example-emblem-ops
 cp -R client-libs client-libs
 gcloud builds submit --tag \

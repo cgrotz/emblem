@@ -56,5 +56,5 @@ steps:
 
 # Specify a default value for optional variables
 substitutions:
-  _REGION: us-central1
+  _REGION: europe-west1
   _E2E_DEPLOYER_SHA: latest

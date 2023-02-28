@@ -23,9 +23,9 @@ steps:
         docker build -t \
         ${_REGION}-docker.pkg.dev/${PROJECT_ID}/installation-testing/deployer:${_IMAGE_TAG} \
         installation-testing/containers/e2e-deployer
-# Default to us-central1
+# Default to europe-west1
 substitutions:
-  _REGION: us-central1
+  _REGION: europe-west1
   _IMAGE_TAG: latest
 
 # Store in Artifact Registry

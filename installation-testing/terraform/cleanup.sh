@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-REGION="${REGION:-us-central1}"
+REGION="${REGION:-europe-west1}"
 
 # Check env variables are not empty strings
 if [[ -z "${STAGE_PROJECT}" ]]; then

@@ -11,7 +11,7 @@ variable "environment" {
 variable "region" {
   type        = string
   description = "Region to deploy resources to."
-  default     = "us-central1"
+  default     = "europe-west1"
 }
 
 variable "enable_apis" {
